@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scented Candle - Glow Co.</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="Layout.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Glow Co.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="scented.avif" class="img-fluid" alt="Scented Candle">
+      </div>
+      <div class="col-lg-6">
+        <h2>Scented Candle</h2>
+        <p>Price: €10</p>
+        <p>Our scented candles are made with 100% natural soy wax and essential oils, and come in a variety of scents, including:</p>
+        <div class="btn-group-vertical">
+          <button type="button" class="btn btn-outline-secondary">Lavender</button>
+          <button type="button" class="btn btn-outline-secondary">Vanilla</button>
+          <button type="button" class="btn btn-outline-secondary">Peppermint</button>
+        </div>
+        <p class="mt-3"><b>Select a scent to add to your cart.</b></p>
+        <form>
+          <div class="mb-3">
+            <label for="quantity" class="form-label">Quantity:</label>
+            <input type="number" class="form-control" id="quantity" min="1" max="10" value="1">
+          </div>
+          <button type="submit" class="btn btn-primary">Add to Cart</button>
+		<button type="button" class="btn btn-primary" onclick="location.href='cart.html'">View Cart</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

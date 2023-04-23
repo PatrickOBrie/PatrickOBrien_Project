@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F5F5DC;
+  color: #555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #7C5742;
+}
+
+p, a, li {
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #FFF0E6;
+  border-bottom: 3px solid #7C5742;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7C5742;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #7C5742;
+}
+
+.nav-link:hover {
+  color: #8B7355;
+}
+
+/* Buttons */
+.btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #7C5742;
+  border-color: #7C5742;
+}
+
+.btn:hover {
+  background-color: #8B7355;
+  border-color: #8B7355;
+}
+
+/* Product Cards */
+.card {
+  background-color: #FFF0E6;
+  border-color: #7C5742;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #7C5742;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.card:hover {
+  background-color: #F5F5DC;
+  border-color: #8B7355;
+}
+
+/* Footer */
+.footer {
+  font-size: 1.2rem;
+  background-color: #FFF0E6;
+  border-top: 3px solid #7C5742;
+  color: #555;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+h6 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
